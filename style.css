@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: #343f51;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    flex-flow:column;
+    align-items: stretch;
+}
+
+#header{
+    flex: 0 1 80px;
+    background-color: white;
+}
+
+#title{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#container{
+    flex: 1 1 auto;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.algo-container{
+    flex: 25%;
+    display: inline-block;
+    font-weight: bold;
+}
